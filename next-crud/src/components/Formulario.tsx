@@ -40,14 +40,15 @@ export default function Formulario(props: FormularioProps) {
       />
       <div className=" flex justify-end mt-4">
         <Botao
-          className="bg-gradient-to-r from-blue-400 to-blue-700  mr-2"
+          className="mr-2"
+          cor="blue"
           onClick={() => props.clienteMudou?.(new Cliente(nome, +idade, id))}
         >
           {id ? 'Alterar' : 'Salvar'}
         </Botao>
         <Botao
           onClick={props.cancelado}
-          className="bg-gradient-to-r from-gray-400 to-gray-700"
+          cor="gray"
         >
           Cancelar
         </Botao>
