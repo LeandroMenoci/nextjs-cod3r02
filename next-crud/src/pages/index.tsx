@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import Tabela from "../components/Tabela";
 import useClientes from "../hooks/useClientes";
 
-
+const surpresa = 1
 
 export default function Home() {
 
